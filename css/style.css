@@ -1,0 +1,215 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", sans-serif;
+}
+* p {
+  font-size: 14px;
+}
+/* <!-- section1 - our services (start) --> */
+.our {
+  background-image: url(../images/agency4-home-splash.jpg);
+  background-size: cover;
+}
+.our-heading h1 {
+  font-size: 40px;
+  font-weight: 600;
+  /* margin-bottom: 30px; */
+  color: #4989fd;
+}
+.our-paragraph p {
+  margin-bottom: 50px;
+}
+.our-paragraph button {
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.btn-ourservice {
+  background-color: #f74371;
+  color: #ffffff;
+  border: none;
+  padding: 9px 15px;
+  margin-top: 15px;
+}
+.btn-learnmore {
+  color: #0c117b;
+  border: 3px solid #0c117b;
+  padding: 7px 15px;
+  margin-top: 15px;
+}
+.btn-learnmore:hover {
+  color: #fff;
+  background-color: #0c117b;
+}
+.question p,
+.our-visit {
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #adadc1;
+}
+.our-visit button {
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: #4989fd;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* <!-- section1 - our services (end) --> */
+/* <!-- section2 - img (start) --> */
+.img-container {
+  padding-top: 80px;
+}
+.img-content {
+  width: 80%;
+  margin: auto;
+}
+.img-content img {
+  margin-left: 10px;
+  background-color: #c2c2c2;
+  padding: 0px 20px;
+  opacity: 25%;
+}
+/* <!-- section1 - our services (end) --> */
+/* <!-- section2 - img (start) --> */
+.img {
+  padding-top: 80px;
+  padding-bottom: 35px;
+}
+.img img {
+  /* width: 145px;
+  height: 75px; */
+  /* padding: 10px 0px; */
+  margin: 30px 35px;
+  opacity: 1;
+  filter: grayscale(100%);
+  transform: all 2s;
+  margin: 0 auto;
+}
+.img img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  background-color: rgb(230, 230, 230);
+}
+
+/* <!-- section2 - img (end) --> */
+/* <!-- section3 - what we can offer (start) --> */
+.people-container {
+  padding-top: 80px;
+  /* background-color: tomato; */
+  display: flex;
+  /*flex-direction: row;*/
+  flex-flow: row nowrap;
+  width: 85%;
+  margin: auto;
+}
+.people-img {
+  /* width: 40%; */
+  box-sizing: border-box;
+  margin: 20px;
+}
+.people-img img {
+  width: 540px;
+  height: 545px;
+}
+.h1-what {
+  color: #4989fd;
+}
+.right {
+  margin-top: 40px;
+  margin-left: 30px;
+  /* width: 40%; */
+}
+.people-heading h1 {
+  color: #0c117b;
+}
+.people-heading p,
+.people-heading,
+.people-list {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.people-list li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+.people-list span {
+  margin-left: 10px;
+}
+.people-list button {
+  border-radius: 20px;
+  margin-top: 30px;
+  background-color: #f74371;
+  color: #ffffff;
+  border: none;
+  padding: 9px 40px;
+}
+/* <!-- section3 - what we can offer (end) --> */
+/* <!-- section4 - what we can do (start) --> */
+.back {
+  background-image: url(../images/agency4-home-offer-bg.jpg);
+  color: #ffffff;
+}
+.back button,
+.missout button {
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  background-color: #f74371;
+  color: #ffffff;
+  border: none;
+  padding: 9px 40px;
+}
+/* <!-- section4 - what we can do (end) --> */
+/* <!-- section5 - facts (start) --> */
+.let h2 {
+  font-size: 58px;
+  color: #0c117b;
+}
+/* <!-- section5 - facts (end) --> */
+/* <!-- section6 - don't miss (start) --> */
+.missout {
+  background-image: url(../images/agency4-home-newsletter-bg.jpg);
+  background-size: contain;
+}
+.missout h2 {
+  font-size: 58px;
+  color: #0c117b;
+}
+.missout span {
+  color: #4989fd;
+}
+.missout p {
+  color: #adadc1;
+  margin-bottom: 0px;
+}
+input[type="email"] {
+  border-width: 0 0 2px 0 !important;
+  box-shadow: unset;
+  resize: none;
+  display: inline;
+}
+/* <!-- section6 - don't miss (end) --> */
+/* <!-- section7 - footer (start) --> */
+.footer {
+  background-color: #fafbfc;
+}
+.footer h5,
+a {
+  font-size: 14px;
+  color: #adadc1;
+}
+.footer a {
+  text-decoration: unset;
+}
+.footer a:hover {
+  text-decoration: unset;
+  color: #adadc1;
+}
+hr.no_line {
+  background: none;
+  color: transparent;
+  border: 0;
+}
+/* <!-- section7 - footer (end) --> */
